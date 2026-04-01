@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>LuxReads - Premium eBooks</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background-color: #0D0D0D;
+      color: #F5F5DC;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      padding: 20px 50px;
+      background: #111;
+      border-bottom: 1px solid #C9A75D;
+    }
+
+    header h1 {
+      color: #C9A75D;
+    }
+
+    nav a {
+      color: #F5F5DC;
+      margin-left: 20px;
+      text-decoration: none;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 100px 20px;
+      background: linear-gradient(to right, #0D0D0D, #1a1a1a);
+    }
+
+    .hero h2 {
+      font-size: 40px;
+      color: #C9A75D;
+    }
+
+    .hero p {
+      margin: 20px 0;
+      color: #ccc;
+    }
+
+    .btn {
+      padding: 12px 25px;
+      background: #C9A75D;
+      color: black;
+      border: none;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    .books {
+      padding: 50px;
+    }
+
+    .books h3 {
+      color: #C9A75D;
+      margin-bottom: 20px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+    }
+
+    .book {
+      background: #1a1a1a;
+      padding: 20px;
+      border-radius: 10px;
+      transition: 0.3s;
+    }
+
+    .book:hover {
+      transform: scale(1.05);
+      border: 1px solid #C9A75D;
+    }
+
+    .book img {
+      width: 100%;
+      border-radius: 5px;
+    }
+
+    .book h4 {
+      margin: 10px 0;
+    }
+
+    .footer {
+      text-align: center;
+      padding: 20px;
+      border-top: 1px solid #C9A75D;
+      margin-top: 50px;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>LuxReads</h1>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Books</a>
+    <a href="#">Categories</a>
+    <a href="#">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h2>Discover Books That Change Your Life</h2>
+  <p>Premium ebooks curated for growth, success, and knowledge.</p>
+  <button class="btn">Browse Collection</button>
+</section>
+
+<section class="books">
+  <h3>Featured Books</h3>
+
+  <div class="grid">
+    <div class="book">
+      <img src="https://via.placeholder.com/200x300">
+      <h4>Atomic Habits</h4>
+      <p>₹199</p>
+      <button class="btn">Buy Now</button>
+    </div>
+
+    <div class="book">
+      <img src="https://via.placeholder.com/200x300">
+      <h4>Rich Dad Poor Dad</h4>
+      <p>₹149</p>
+      <button class="btn">Buy Now</button>
+    </div>
+
+    <div class="book">
+      <img src="https://via.placeholder.com/200x300">
+      <h4>Deep Work</h4>
+      <p>₹179</p>
+      <button class="btn">Buy Now</button>
+    </div>
+  </div>
+</section>
+
+<div class="footer">
+  <p>© 2026 LuxReads | All Rights Reserved</p>
+</div>
+
+</body>
+</html>
